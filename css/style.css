@@ -806,11 +806,11 @@ img.pull-right {
 
 .hero-area.centerd-item .banner-item {
   background-image: url(../images/hero_area/banner2.png);
-  -webkit-filter: blur(5px);
+  /* -webkit-filter: blur(5px);
   -moz-filter: blur(5px);
   -o-filter: blur(5px);
   -ms-filter: blur(5px);
-  filter: blur(5px);
+  filter: blur(5px); */
 }
   .hero-area.centerd-item .banner-item:before {
     background: url(../images/hero_area/banner_slices2.png) no-repeat center center;
@@ -821,15 +821,33 @@ img.pull-right {
     top: 0;
     margin: auto;
     background: #ef6440;
-    opacity: 0.7;
+    opacity: 1;
+    content: '';
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -moz-filter: blur(50%);
+    -o-filter: blur(50%);
+    -ms-filter: blur(50%);
+    filter: blur(50%);
+    bottom: 0;
+    width: 650px;
+    right: 0;
+    height: 650px; }
+
+    /* position: absolute;
+    left: 0;
+    top: 0;
+    margin: auto;
+    background: #2f0063;
     content: '';
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -ms-border-radius: 50%;
     bottom: 0;
-    width: 650px;
+    width: 725px;
     right: 0;
-    height: 650px; }
+    height: 725px; } */
   .hero-area.centerd-item .banner-item .banner-content-wrap {
     padding: 117px;
     padding-top: 50px !important;
