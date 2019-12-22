@@ -310,7 +310,7 @@ img.pull-right {
 .column-title {
   font-size: 36px;
   font-weight: 800;
-  color: #3b1d82;
+  color: #ef6440;
   position: relative;
   padding-bottom: 30px;
   margin-bottom: 85px;
@@ -851,6 +851,7 @@ img.pull-right {
     font-size: 20px; }
   .main-slider .banner-item .banner-content-wrap h1.banner-title {
     text-transform: capitalize;
+    color: #ef6440;
     margin-bottom: 30px; }
   .main-slider .banner-item .banner-content-wrap p.banner-desc {
     font-size: 18px;
@@ -3213,5 +3214,9 @@ faq-item
     font-size: 20px;
     font-weight: 700;
     margin-top: 2px; }
+  
+  #color-text-orange {
+    color: #ef6440;
+  }
 
 /*# sourceMappingURL=style.css.map */
